@@ -24,5 +24,10 @@ https://apis.5share.site/books/?isbn=9787544790888
 每10秒限制50个请求，超过限制IP关小黑屋10秒
 ### 返回内容
 ISBN最后一位为验证位，如果输入ISBN验证位不正确，返回的ISBN会通过计算修正错误的ISBN
+例子：  
+请求URL：https://apis.5share.site/books/?isbn=9787544722761  
+返回内容  
+![图片](https://github.com/user-attachments/assets/da58960d-b118-4292-b37a-8a46a53a4f0a)
+
 
 
