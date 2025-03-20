@@ -21,7 +21,10 @@ https://apis.5share.site/books/?isbn=9787544790888
 ## 注意事项
 ### 请求
 #### 速率限制
-每10秒限制50个请求，超过限制IP关小黑屋10秒
+每10秒限制20个请求，超过限制IP关小黑屋10秒  
+超限返回内容 响应码 429 Too Many Requests
+![图片](https://github.com/user-attachments/assets/1d1f8c27-863a-42e4-aae0-64bb0d07060c)
+
 ### 返回内容
 ISBN最后一位为验证位，如果输入ISBN验证位不正确，返回的ISBN会通过计算修正错误的ISBN
 例子：  
