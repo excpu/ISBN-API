@@ -24,7 +24,9 @@ https://apis.5share.site/books/?isbn=9787544790888
 每10秒限制20个请求，超过限制IP关小黑屋10秒  
 超限返回内容 响应码 429 Too Many Requests
 ![图片](https://github.com/user-attachments/assets/1d1f8c27-863a-42e4-aae0-64bb0d07060c)
-违反1分钟120请求的ip会直接返回 444 错误
+违反1分钟120请求的ip会直接返回 CF 520 错误页
+![图片](https://github.com/user-attachments/assets/ac922887-a980-4621-91c6-73b88813c6dd)
+
 
 ### 返回内容
 ISBN最后一位为验证位，如果输入ISBN验证位不正确，返回的ISBN会通过计算修正错误的ISBN
