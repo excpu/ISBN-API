@@ -1,6 +1,8 @@
 # ISBN-API
 通过ISBN查询书本的基本信息
 
+使用过程中有任何问题请通过Issue提出
+
 ## API 接口
 https://apis.5share.site/books/?isbn=ISBN
 
